@@ -1,24 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <title>Weather Dashboard</title>
 </head>
+
 <body>
     <h1 class="title">Weather Dashboard</h1>
 
     <input id="inputId" />
     <button id="buttonId"> Start Search! </button>
-   
-    <section id="weather-result">    
+
+    <section id="weather-result">
         <h1 id=city-name></h1>
-        <div id="temperature"></div>
+        <img id="image-icon">
+        <img id="temperature"></img>
         <div id="humidity"></div>
         <div id="wind-speed"></div>
         <div id="uv-index"></div>
     </section>
+
+    <section id=5-day-forecast>
+        <h2>5-Day Forecast</h2>
+        <div id="1">
+            <div id="date"></div>
+            <img id="image-5-day">
+            <div id="temperature-5-day"></div>
+            <div id="humidity-5-day"></div>
+        </div>
+
+        <div id="2">
+            <div id="date"></div>
+            <img id="image-5-day">
+            <div id="temperature-5-day"></div>
+            <div id="humidity-5-day"></div>
+        </div>
+
+        <div id="3">
+            <div id="date"></div>
+            <img id="image-5-day">
+            <div id="temperature-5-day"></div>
+            <div id="humidity-5-day"></div>
+        </div>
+
+        <div id="4">
+            <div id="date"></div>
+            <img id="image-5-day">
+            <div id="temperature-5-day"></div>
+            <div id="humidity-5-day"></div>
+        </div>
+
+        <div id="5">
+            <div id="date"></div>
+            <img id="image-5-day">
+            <div id="temperature-5-day"></div>
+            <div id="humidity-5-day"></div>
+        </div>
+    </section>
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
     <script src="script.js"></script>
+
 </body>
+
 </html>
